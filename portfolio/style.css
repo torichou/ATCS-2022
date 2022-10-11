@@ -1,0 +1,23 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 25%;
+    background-color:rgb(241, 241, 241);
+}
+
+.sidebar{
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+.title{
+    text-decoration-line: overline;
+    line-height: 50%;
+}
+
+.description{
+    text-align:right;
+    line-height: normal;
+    width: 80ch;    
+}
+
