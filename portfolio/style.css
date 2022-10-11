@@ -1,18 +1,12 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    line-height: 25%;
     background-color:rgb(241, 241, 241);
 }
 
 .sidebar{
-    position: relative;
-    top: 100px;
-    left: 30px;
-}
-
-.title{
-    text-decoration-line: overline;
-    line-height: 50%;
+    position: fixed;
+    top: 10px;
+    left: 30px; 
 }
 
 .description{
@@ -21,3 +15,17 @@ body{
     width: 80ch;    
 }
 
+.albums{
+    display:block;
+    float:left;
+    margin-left:25%;
+    margin-right: auto;
+    width:20%;
+}
+
+.albumdescriptions{
+    display:block;
+    margin-left:58%;
+    margin-right:0.5%;
+    line-height: normal;
+}
