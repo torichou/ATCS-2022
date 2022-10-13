@@ -9,10 +9,11 @@ body{
     left: 30px; 
 }
 
-.description{
-    text-align:right;
-    line-height: normal;
-    width: 80ch;    
+.bio{
+    display: block;
+    float:right;
+    text-align: right;
+    width: 60ch;
 }
 
 .albums{
@@ -28,4 +29,7 @@ body{
     margin-left:58%;
     margin-right:0.5%;
     line-height: normal;
+}
+.hereistand{
+    margin-bottom:20%;
 }
