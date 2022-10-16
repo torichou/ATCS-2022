@@ -1,19 +1,28 @@
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color:rgb(241, 241, 241);
+    color:#022B3A;
+}
+
+a:visited{
+    color:#022B3A;
+}
+
+a:active{
+    color:#022B3A;
 }
 
 .sidebar{
-    position: fixed;
-    top: 10px;
-    left: 30px; 
+    position:fixed;
+    top:10px;
+    left:30px; 
 }
 
 .bio{
-    display: block;
+    display:block;
     float:right;
-    text-align: right;
-    width: 60ch;
+    text-align:right;
+    width:60ch;
 }
 
 .albums{
@@ -21,15 +30,50 @@ body{
     float:left;
     margin-left:25%;
     margin-right: auto;
-    width:20%;
+    width:25%;
 }
 
 .albumdescriptions{
     display:block;
-    margin-left:58%;
-    margin-right:0.5%;
-    line-height: normal;
+    margin-left:60%;
+    margin-right:0%;
+    line-height:normal;
 }
+
 .hereistand{
-    margin-bottom:20%;
+    margin-bottom:25%;
+}
+.soquietly{
+    margin-bottom:59%;
+}
+.drift{
+    margin-bottom:40%;
+}
+.nevershalliforget{
+    margin-bottom: 58%;
+}
+
+#heroimg{
+    height:600px;
+    display:block;
+    float:right;
+}
+
+img{
+    border:7px solid #022B3A;
+}
+
+.footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    border:5px solid rgb(209, 209, 209);
+    line-height:40%;
+    text-align:center;
+}
+
+iframe{
+    width: 400px;
+    height:300px;
+    border:7px solid #022B3A;
 }
