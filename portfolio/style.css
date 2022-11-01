@@ -4,41 +4,6 @@ body{
     color:#022B3A;
 }
 
-.bio{
-    display:block;
-    float:right;
-    text-align:right;
-    width:60ch;
-}
-
-.albums{
-    display:block;
-    float:left;
-    margin-left:25%;
-    margin-right: auto;
-    width:25%;
-}
-
-.albumdescriptions{
-    display:block;
-    margin-left:60%;
-    margin-right:0%;
-    line-height:normal;
-}
-
-.hereistand{
-    margin-bottom:25%;
-}
-.soquietly{
-    margin-bottom:59%;
-}
-.drift{
-    margin-bottom:40%;
-}
-.nevershalliforget{
-    margin-bottom: 58%;
-}
-
 .footer{
     position:fixed;
     bottom:0;
@@ -49,7 +14,5 @@ body{
 }
 
 iframe{
-    width: 400px;
-    height:300px;
-    border:7px solid #022B3A;
+    height: 400px;
 }
