@@ -4,15 +4,16 @@ body{
     color:#022B3A;
 }
 
-.footer{
-    position:fixed;
-    bottom:0;
-    width:100%;
-    border:5px solid rgb(209, 209, 209);
-    line-height:40%;
-    text-align:center;
-}
 
 iframe{
     height: 400px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+footer{
+    padding-top: 2%;
+    border: solid #022B3A 2px;
 }
