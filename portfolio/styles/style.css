@@ -1,0 +1,19 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(241, 241, 241);
+    color:#022B3A;
+}
+
+
+iframe{
+    height: 400px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+footer{
+    padding-top: 2%;
+    border: solid #022B3A 2px;
+}
