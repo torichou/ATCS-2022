@@ -1,6 +1,7 @@
 from models import *
 from database import init_db, db_session
 from datetime import datetime
+from sqlalchemy import desc 
 
 class Twitter:
     current_user = None
@@ -139,7 +140,9 @@ class Twitter:
     people the user follows
     """
     def view_feed(self):
-        pass
+        following = db_session.query(Follower).where(self.current_user.username==Follower.follower_id).all()
+        for person in following:
+            self.print_tweets(db_session.query(Tweet).where(person.following_id==Tweet.username).order_by(desc(Tweet.timestamp)).limit(5))
 
     def search_by_user(self):
         pass

@@ -30,7 +30,6 @@ class User(Base):
         self.username = username
         self.password = password
         
-
     def __repr__(self):
         return "@" + self.username
 
@@ -64,8 +63,8 @@ class Tweet(Base):
 
     def __repr__(self):
         string_tags = ""
-        for tag in str(self.tags):
-            string_tags += tag
+        for tag in self.tags:
+            string_tags = string_tags + str(tag) + " "
         return "@" + self.username + ":\n" + self.content + "\n" + string_tags + "\n" + self.timestamp
 
 class Tag(Base):
@@ -88,7 +87,6 @@ class TweetTag(Base):
     __tablename__ = "tweettags"
 
     # Columns
-    #id = Column("id", INTEGER, primary_key=True)
     tag_id = Column("tag_id", ForeignKey("tags.id"), primary_key=True)
     tweet_id = Column("tweet_id", ForeignKey("tweets.id"), primary_key=True)
 
